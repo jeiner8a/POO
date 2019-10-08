@@ -60,7 +60,18 @@ public class Main
 			System.out.println(str);
 			*/
 //--------------------------------------------------------------------------//
-	
+
+		
+	try
+	{
+	Scanner myObj = new Scanner(System.in); 
+		
+	} catch(Exception e)
+	{
+		
+	}
+    String userName = myObj.nextLine();  // Read user input
+    System.out.println("Username is: " + userName);  // Output user input
 		}
 	
 	}
